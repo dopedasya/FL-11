@@ -24,15 +24,14 @@
     max-width: 100%;
     text-align: center;
   }
-
+  a:hover {
+    text-decoration: none;
+  }
+	
   h2 {
     text-transform: uppercase;
     color: lightskyblue;
     font-weight: 300;
-  }
-
-  a:hover {
-    text-decoration: none;
   }
 
   .tm-banner,
