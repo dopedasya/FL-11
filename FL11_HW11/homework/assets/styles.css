@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times new roman", serif;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+    display: block;
+}
+
+.container {
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    color: rgb(66, 181, 252);
+    padding-bottom: 40px;
+}
+.notification {
+    color: rgb(187, 30, 30);
+    text-align: center;
+}
+.newTask {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.edit {
+    color: rgb(86, 132, 202);
+    margin-left: 10px;
+}
+.save {
+    color: rgb(86, 132, 202);
+}
+.delete {
+    color: rgb(86, 132, 202);
+    float: right;
+}
+.newTaskInput {
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    width: 800px;
+    padding: 15px;
+}
+.addButton {
+    border: none;
+    color: #fff;
+    background: transparent;
+}
+.addButtonItem {
+    font-size: 40px;
+    background: #bbb;
+    border-radius: 5px;
+}
+.hr {
+    height: 10px;
+    background: rgba(227, 241, 252, 0.7);
+    margin: 15px 0;
+}
+li {
+    position: relative;
+}
+.checkbox-button {
+    color: #bbb;
+}
+.checkboxButtonItem {
+    line-height: 32px;
+    font-size: 32px;
+}
+label {
+    margin-left: 8px;
+    position: relative;
+    top: -10px;
+    display: inline;
+    color: rgb(92, 201, 255);
+    font-weight: bold;
+}
+.listInput {
+    display: none;
+    font-family: "Arial", sans-serif;
+}
+
+.listInput {
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    padding: 9px;
+    width: 350px;
+    position: relative;
+    top: -12px;
+}
+.material-icons {
+    opacity: 0.9;
+}
+.material-icons:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.editMode {
+    height: 36px;
+}
+.editMode > label {
+    display: none;
+}
+.editMode > .listInput {
+    display: inline;
+}
+.editMode > button.checkbox {
+    display: none;
+}
+
